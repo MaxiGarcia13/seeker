@@ -2,7 +2,7 @@ import React from 'react';
 import NavbarItem from '../../atoms/NavbarItem';
 import Title from '../../atoms/Title';
 import pages from '../../../config/pages';
-import styles from './header.styles.module.css';
+import * as styles from './header.styles.module.css';
 
 const HeaderComponent = () => (
     <header className={styles.header}>

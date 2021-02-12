@@ -2,12 +2,13 @@ import React, { Suspense } from 'react';
 import Header from '../../molecules/Header';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import pages from '../../../config/pages';
+import * as styles from './app.styles.module.css';
 
 const AppComponent = () => {
     return (
         <Router>
             <Header />
-            <main>
+            <main className={styles.main}>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Switch>
                         {pages.map(({ slug, Component, exact }) => (
@@ -24,6 +25,12 @@ const AppComponent = () => {
                     </Switch>
                 </Suspense>
             </main>
+            <footer className={styles.footer}>
+                Si quieres descargarte el repositorio{' '}
+                <a href='https://github.com/MaxiGarcia13/seeker' target='__blank'>
+                    haz click aqui 🚚
+                </a>
+            </footer>
         </Router>
     );
 };

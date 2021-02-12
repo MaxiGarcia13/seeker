@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.header_image {
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    margin: 0 1rem 0 0;
+}
+
+.header_content {
+    padding: 1rem;
+}
+
+.link {
+    padding: 0 0.5rem;
+}
+
+.image_example {
+    padding: 1rem 0;
+}
+
+.image_example img {
+    width: 100%;
+}
+
+.list li {
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,8 @@
+.main {
+    padding-bottom: 4rem;
+}
+.footer {
+    padding: 4rem 1rem 1rem;
+    text-align: end;
+    background-color: var(--background-color-sc);
+}

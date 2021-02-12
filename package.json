@@ -2,12 +2,13 @@
     "name": "seeker",
     "version": "1.0.0",
     "description": "A simple example of an autocomplete with redux and saga",
-    "main": "./public/index.html",
+    "main": "build/index.html",
     "scripts": {
-        "dev": "npm run clean && parcel ./public/index.html --port 9000 --open --host 0.0.0.0",
-        "build": "npm run clean && parcel build ./public/index.html",
+        "dev": "yarn clean && parcel public/index.html --port 9000 --open --host 0.0.0.0",
+        "build": "yarn clean && parcel build public/index.html --dist-dir ./dist/",
+        "serve": "npx serve ./build ",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "clean": "rm -rf .cache && rm -rf dist"
+        "clean": "rm -rf .cache && rm -rf dist && rm -rf .parcel-cache"
     },
     "repository": {
         "type": "git",
@@ -38,5 +39,12 @@
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-router-dom": "^5.2.0"
-    }
+    },
+    "browserslist": [
+        "last 3 and_chr versions",
+        "last 3 chrome versions",
+        "last 3 opera versions",
+        "last 3 ios_saf versions",
+        "last 3 safari versions"
+    ]
 }

@@ -1,14 +1,16 @@
 import { lazy } from 'react';
 
-const PreviewComponent = lazy(() => import('../components/organisms/Preview'));
+const DemoComponent = lazy(() => import('../components/organisms/Demo'));
 const ReduxComponent = lazy(() => import('../components/organisms/Redux'));
+const AboutProyectComponent = lazy(() => import('../components/organisms/AboutProyect'));
+
 const SagaComponent = lazy(() => import('../components/organisms/Saga'));
 
 export default [
     {
         label: ' Sobre el proyecto',
         slug: '/',
-        Component: ReduxComponent,
+        Component: AboutProyectComponent,
         exact: true,
     },
     {
@@ -24,9 +26,9 @@ export default [
         exact: true,
     },
     {
-        label: 'Preview',
-        slug: '/preview',
-        Component: PreviewComponent,
+        label: 'Demo',
+        slug: '/demo',
+        Component: DemoComponent,
         exact: true,
     },
 ];

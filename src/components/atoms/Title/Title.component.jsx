@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import styles from './title.styles.module.css';
+import * as styles from './title.styles.module.css';
 
 /**
  *

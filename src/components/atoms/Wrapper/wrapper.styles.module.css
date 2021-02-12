@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 1rem;
+}
+
+.wrapper.maxWidth {
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
