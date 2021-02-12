@@ -1,0 +1,19 @@
+{
+  "name": "seeker",
+  "version": "1.0.0",
+  "description": "A simple example of an autocomplete with redux and saga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiGarcia13/seeker.git"
+  },
+  "author": "Maximiliano Daniel Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxiGarcia13/seeker/issues"
+  },
+  "homepage": "https://github.com/MaxiGarcia13/seeker#readme"
+}
