@@ -1,0 +1,12 @@
+.h1 {
+    margin: 2rem 0;
+    color: var(--font-color-sc);
+}
+
+.h2 {
+    margin: 1.5rem;
+}
+
+.h3 {
+    margin: 1rem;
+}

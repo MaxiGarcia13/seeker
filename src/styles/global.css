@@ -1,0 +1,15 @@
+:root {
+    --background-color-pr: #282a36;
+    --font-color-pr: #f8f8f2;
+    --font-color-ac: #ff79c6;
+    --font-color-sc: #50fa7b;
+
+    --box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--background-color-pr);
+    color: var(--font-color-pr);
+}

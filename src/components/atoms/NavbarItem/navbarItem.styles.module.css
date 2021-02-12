@@ -1,0 +1,39 @@
+.header__nav__items__item a {
+    padding: 1rem;
+    color: var(--font-color-pr);
+    text-decoration: none;
+    transition: color 200ms;
+    font-size: 1rem;
+    position: relative;
+}
+
+.header__nav__items__item a:hover,
+.header__nav__items__item.active a {
+    color: var(--font-color-ac);
+}
+
+.header__nav__items__item a::after {
+    content: none;
+    background: currentColor;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.header__nav__items__item.active a::after {
+    content: ' ';
+    animation-name: expand-nav-item;
+    animation-duration: 200ms;
+}
+
+/* The animation code */
+@keyframes expand-nav-item {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
