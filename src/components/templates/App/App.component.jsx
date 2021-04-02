@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import Header from '../../molecules/Header';
+import Header from '../../organisms/Header';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import pages from '../../../config/pages';
 import * as styles from './app.styles.module.css';

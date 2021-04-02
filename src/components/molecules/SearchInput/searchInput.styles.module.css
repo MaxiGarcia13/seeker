@@ -1,0 +1,23 @@
+.inputSearch {
+    --size: 50px;
+
+    display: inline-flex;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    max-height: var(--size);
+}
+
+.inputSearch__input {
+    height: var(--size);
+    max-height: var(--size);
+    flex: 1;
+    margin: 0;
+    border-radius: 0;
+}
+
+.inputSearch__button {
+    height: var(--size);
+    width: var(--size);
+    margin-left: 0;
+    border-radius: 0;
+}

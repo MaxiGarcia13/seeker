@@ -1,0 +1,13 @@
+.button {
+    padding: 1rem 0.5rem;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button--primary {
+    background-color: var(--font-color-ac);
+}

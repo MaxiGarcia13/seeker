@@ -4,6 +4,7 @@
     "description": "A simple example of an autocomplete with redux and saga",
     "main": "build/index.html",
     "scripts": {
+        "start": "yarn dev",
         "dev": "yarn clean && parcel public/index.html --port 9000 --open --host 0.0.0.0",
         "build": "yarn clean && parcel build public/index.html --dist-dir ./dist/",
         "serve": "npx serve ./build ",
@@ -29,6 +30,7 @@
         "@parcel/transformer-html": "2.0.0-nightly.587",
         "@parcel/transformer-postcss": "2.0.0-nightly.587",
         "@parcel/transformer-posthtml": "2.0.0-nightly.587",
+        "@parcel/transformer-sass": "2.0.0-nightly.587",
         "autoprefixer": "^10.2.4",
         "parcel": "^2.0.0-nightly.585",
         "postcss": "^8.2.1",

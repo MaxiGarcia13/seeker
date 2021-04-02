@@ -1,0 +1,14 @@
+.demo {
+    display: block;
+    height: calc(100vh - 260px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.demo__autocomplte {
+    width: 100%;
+    max-width: 500px;
+}

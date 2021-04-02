@@ -1,0 +1,14 @@
+.input {
+    background-color: var(--background-color-ac);
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    border-style: none;
+    color: var(--font-color-tr);
+    border-color: unset;
+    outline: none;
+    margin-right: 0;
+}
+
+.input:focus {
+    border-color: var(--font-color-ac);
+    outline-color: var(--font-color-ac);
+}

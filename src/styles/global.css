@@ -1,11 +1,14 @@
 :root {
     --background-color-pr: #282a36;
     --background-color-sc: #44475a;
+    --background-color-ac: #f8f8f2;
 
     --font-color-pr: #f8f8f2;
-    --font-color-ac: #ff79c6;
     --font-color-sc: #50fa7b;
+    --font-color-tr: #282a36;
+    --font-color-ac: #ff79c6;
     --box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+    --border-radius: 4px;
 }
 
 body {
@@ -24,4 +27,8 @@ p {
 a {
     font-size: 1rem;
     color: var(--font-color-sc);
+}
+
+* {
+    box-sizing: border-box;
 }

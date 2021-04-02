@@ -1,10 +1,9 @@
 import { lazy } from 'react';
 
-const DemoComponent = lazy(() => import('../components/organisms/Demo'));
-const ReduxComponent = lazy(() => import('../components/organisms/Redux'));
-const AboutProyectComponent = lazy(() => import('../components/organisms/AboutProyect'));
-
-const SagaComponent = lazy(() => import('../components/organisms/Saga'));
+const DemoComponent = lazy(() => import('../components/pages/Demo'));
+const ReduxComponent = lazy(() => import('../components/pages/Redux'));
+const AboutProyectComponent = lazy(() => import('../components/pages/AboutProyect'));
+const SagaComponent = lazy(() => import('../components/pages/Saga'));
 
 export default [
     {
